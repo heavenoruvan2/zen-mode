@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1A1B2F"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/widget_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="FocusFlow • Today's Schedule"
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/widget_next_task"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="💻 Kotlin &amp; Compose Development (13:00 - 15:00)"
+        android:textColor="#A0AEC0"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/widget_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:background="#4F46E5"
+        android:paddingHorizontal="12dp"
+        android:paddingVertical="6dp"
+        android:text="🎯 Quick Start Focus Mode"
+        android:textColor="#FFFFFF"
+        android:textSize="12sp"
+        android:textStyle="bold" />
+</LinearLayout>
